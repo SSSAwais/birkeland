@@ -1,0 +1,136 @@
+.Teams {
+    background-color: #110d2b;
+    padding: 80px 20px;
+  }
+  .Teams .title--title {
+    color: #ffffff;
+    font-family: "Roboto Slab", serif;
+    font-weight: 100;
+    font-size: 41px;
+    letter-spacing: -0.01em;
+    padding: 0px 0 30px 0;
+  }
+  
+  .Teams .sssgr--btn {
+    border-radius: 100px;
+    font-family: "BarkeleyMono-Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    border: none;
+    color: #171717;
+    background-color: #ffbb38;
+    border-radius: 4px;
+    letter-spacing: 3px;
+    padding: 0.9rem 2rem;
+  }
+  
+  .sssgr--team--wapper .sssgr--team--item {
+    display: flex;
+    margin-bottom: 60px;
+  }
+  
+  .sssgr--team--wapper .sssgr--team--item:last-child {
+    margin-bottom: 0px;
+  }
+  .sssgr--team--item .sssgr--item--content {
+    padding-top: 20px;
+  }
+  .sssgr--item--content .item--sub--title,
+  .sssgr--item--content .item--title {
+    font-family: "BarkeleyMono-Bold";
+  
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: initial;
+    color: #ffffff;
+    letter-spacing: 0.03em;
+  }
+  .sssgr--item--content .item--sub--title {
+    color: #9a8ce8;
+  }
+  
+  .sssgr--item--content .item--disc {
+    font-family: "BarkeleyMono-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    color: #ddd9f7;
+  }
+  
+  .sssgr--team--item .sssgr--item--img {
+    height: 340px;
+    border-radius: 25px;
+    /* width: 250px; */
+    margin-right: 25px;
+  }
+  .sssgr--item--img img {
+    min-width: 250px;
+    max-width: 250px;
+    width: 100%;
+  }
+  
+  .sssgr--item--content .scoial--link .icon i {
+    color: #ffbb38;
+    font-size: 25px;
+    margin-right: 15px;
+  }
+  @media screen and (max-width: 1200px) {
+    .Teams .sssgr--item--img img {
+      min-width: 200px;
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    .Teams {
+      padding: 50px 20px;
+    }
+    .Teams .title--title {
+      padding: 00px 0 20px 0;
+    }
+    .Teams .sssgr--team--item .sssgr--item--img {
+      height: min-content;
+    }
+  }
+  @media screen and (max-width: 992px) {
+    .Teams .sssgr--team--wapper {
+      margin-top: 50px;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .Teams {
+      padding: 35px 20px;
+    }
+    .sssgr--team--item .sssgr--item--content {
+      padding-top: 0;
+    }
+    .Teams .title--title {
+      font-size: 30px;
+    }
+    .Teams .sssgr--item--img img {
+      min-width: 150px;
+    }
+    .sssgr--item--content .item--disc {
+      font-size: 15px;
+    }
+  }
+  
+  @media screen and (max-width: 525px) {
+    .teams .title--title {
+      font-size: 25px;
+      line-height: 35px;
+      padding: 0px 0 15px 0;
+    }
+    .sssgr--team--wapper .sssgr--team--item {
+      flex-direction: column;
+    }
+    .Teams .sssgr--team--item .sssgr--item--img {
+      margin-right: 0;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+  }
+  

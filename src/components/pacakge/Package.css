@@ -1,0 +1,77 @@
+.package_{
+    background: #090616;
+    padding-bottom: 80px;
+    padding-left: 20px ;
+    padding-right: 20px;
+}
+.pacakge_heading{
+    text-align: center;
+}
+.pacakge_heading h2{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+    font-size: 49px;
+    color: #fff;
+}
+.pacakge_heading p{
+    font-family: 'BarkeleyMono-Regular';
+    font-size: 19px;
+    color: #9A8CE8;
+}
+button#pills-profile-tab ,button#pills-home-tab{
+    font-family: 'BarkeleyMono-Bold';
+    background: #201C54;
+    padding: 14px 24px;
+    font-size: 13px;
+    color: #DDD9F7;
+}
+.nav-pills .nav-link.active{
+    background: #FFBA48 !important;
+    color: #171717 !important;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1024px){
+    .package_{
+        padding-bottom:50px;
+    }
+    .pacakge_heading h2{
+        font-size: 36px;
+   }
+   .pacakge_heading p{
+    font-size: 16px;
+   }
+}
+
+
+
+@media only screen and (max-width: 768px){
+    .package_{
+        padding-bottom:35px;
+    }
+}
+
+
+@media only screen and (max-width: 570px){
+    .pacakge_heading h2{
+        font-size: 26px;
+    }
+    .pacakge_heading p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .pacakge_heading h2{
+        font-size: 22px;
+    }
+    .pacakge_heading p{
+        font-size: 12px;
+    }
+}

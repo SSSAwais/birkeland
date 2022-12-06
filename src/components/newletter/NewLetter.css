@@ -1,0 +1,114 @@
+.sssgr--newLetter {
+    background-color: #090616;
+    padding: 80px 0;
+  }
+  
+  .sssgr---wrapper .sssgr--btn {
+    background: #b38327;
+    border-radius: 100px;
+    font-family: "BarkeleyMono-Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    border: none;
+    color: #171717;
+    padding: 0.6rem 2rem;
+    text-transform: capitalize;
+  }
+  
+  .sssgr--newletter--form .sssgr--btn {
+    background-color: #ffbb38;
+    border-radius: 4px;
+    letter-spacing: 3px;
+    padding: 0.9rem 2.5rem;
+  }
+  
+  .sssgr---wrapper p {
+    font-family: "BarkeleyMono-Regular";
+    font-size: 13px;
+    color: #9a8ce8;
+    margin-bottom: 0;
+  }
+  
+  .sssgr---wrapper h5 {
+    color: #ffffff;
+    font-family: "Roboto Slab", serif;
+    font-weight: 100;
+    font-size: 41px;
+    letter-spacing: -0.01em;
+    padding: 30px 0 50px 0;
+  }
+  
+  .sssgr--newletter--form {
+    margin-bottom: 20px;
+  }
+  .sssgr--newletter--form input::placeholder {
+    color: #9e9e9e;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "BarkeleyMono-Regular";
+  }
+  .sssgr--newletter--form input {
+    outline: none;
+    padding: 0.9rem 1rem;
+    max-width: 300px;
+    width: 100%;
+    border-radius: 4px;
+    border: none;
+    margin-right: 20px;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .sssgr--newletter--form .sssgr--btn {
+      padding: 0.9rem 2rem;
+      letter-spacing: 1px;
+    }
+    .sssgr--newletter--form input {
+      max-width: 250px;
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    .sssgr--newLetter {
+      padding: 50px 20px;
+    }
+    .sssgr---wrapper h5 {
+      padding: 20px 0 30px 0;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .sssgr--newLetter {
+      padding: 35px 20px;
+    }
+    .sssgr---wrapper h5 {
+      font-size: 30px;
+    }
+    .sssgr--newletter--form .sssgr--btn,
+    .sssgr--newletter--form input {
+      padding: 0.7rem 1rem;
+    }
+    .sssgr--newletter--form input {
+      max-width: 200px;
+    }
+    .sssgr--newletter--form .sssgr--btn {
+      padding: 0.7rem 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .sssgr--newletter--form input {
+      width: 100%;
+      max-width: 100%;
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+    .sssgr--newletter--form {
+      flex-direction: column;
+    }
+    .sssgr---wrapper h5 {
+      font-size: 25px;
+      line-height: 35px;
+      padding: 20px 0 15px 0;
+    }
+  }
+  

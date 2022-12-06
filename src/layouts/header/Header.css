@@ -1,0 +1,53 @@
+header{
+    background: #110D2B;
+
+}
+.logo_heading h4{
+    font-family: 'BarkeleyMono-Bold';
+    font-size: 25px;
+    letter-spacing: 0.1em;
+    color: #fff;
+    text-align: start;
+    margin-bottom: 0px;
+}
+.head_row{
+    padding:22px 20px
+}
+.early_access button{
+    font-family: 'BarkeleyMono-Bold';
+    font-size: 16px;
+    color: #171717; 
+    background: #FFBB38;
+    border-radius: 4px;
+    padding:6px 16px;
+    border: 0px;
+    
+}
+
+@media only screen and (max-width: 576px){
+    .logo_heading h4{
+        font-size: 18px;
+    }
+    .head_section_1{
+        width: 50% !important;
+    }
+    .early_access button {
+        font-size: 12px;
+       padding: 6px 12px;
+    }
+    .head_row{
+        padding:16px;
+    }
+}
+@media only screen and (max-width: 370px){
+    .logo_heading h4 {
+        font-size: 16px;
+    }
+    .early_access button {
+        font-size: 10px;
+        padding: 6px 8px;
+    }
+
+}
+
+

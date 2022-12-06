@@ -1,0 +1,49 @@
+.billing_details button {
+  text-transform: uppercase;
+  font-family: "BarkeleyMono-Bold";
+  font-size: 13px;
+  color: #171717;
+  background: #ffbb38;
+  border-radius: 6px;
+  border: none;
+  padding: 6px 0px;
+  width: 100%;
+}
+.bill_wrapper {
+  background: #110d2b;
+  box-shadow: 0px 0px 1px #030207, 0px 4px 8px rgba(3, 2, 7, 0.9);
+  border-radius: 8px;
+  padding: 32px 24px;
+}
+.billing_details h2{
+    font-family: "BarkeleyMono-Bold";
+    font-size: 18px;
+    line-height: 29px;
+    margin-bottom: 16px;
+    color: #fff;
+}
+.billing_details p{
+    font-family: 'BarkeleyMono-Regular';
+    font-size: 13px;
+    line-height: 20px;
+    color: #9A8CE8;
+    margin-bottom: 16px;
+}
+.billing_details h6{
+    font-family: "BarkeleyMono-Bold";
+    font-size: 49px;
+    line-height: 54px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.billing_details {
+    padding-bottom: 24px;
+    border-bottom: 1px solid #342682;
+}
+.whats_included h3{
+    font-family: 'BarkeleyMono-Regular';
+    font-size: 11px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding-top: 24px;
+}

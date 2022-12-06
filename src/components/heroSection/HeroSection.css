@@ -1,0 +1,134 @@
+.hero_section_bg{
+    background: linear-gradient(270deg, #24243E 0%, #0F0C29 100%);
+}
+.hero_detail h2{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+    font-size: 49px;
+    color: #fff;
+}
+.hero_detail p{
+    font-family: 'BarkeleyMono-Regular';
+    font-size: 19px;
+    color: #9A8CE8;
+}
+.signup_section p{
+    font-family: 'BarkeleyMono-Regular';
+    font-size: 16px;
+    color: #fff; 
+    margin-bottom: 10px;
+}
+.search_section input , .search_section button{
+    width: 49%;
+}
+.search_section input {
+    font-family: 'BarkeleyMono-Regular';
+    font-size: 16px;
+    color: #9E9E9E;
+    padding:12px 16px;
+    border-radius: 4px;
+    border: none;
+}
+.search_section{
+    display: flex;
+    justify-content: space-between;
+}
+.search_section button{
+    background: #FFBB38;
+    font-family: 'BarkeleyMono-Bold';
+    font-size: 16px;
+    color: #171717;
+    border-radius: 4px;
+    border:0px;
+    padding :12px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search_section button span{
+    margin-left:15px;
+}
+.hero_row{
+    padding:80px 20px;
+}
+.md_img_sec{
+    text-align: end;
+}
+
+
+
+
+@media only screen and (max-width: 1024px){
+    .hero_row{
+        padding:50px 20px;
+    }
+    .hero_detail h2 {
+        font-size: 36px;
+   }
+   .hero_detail p{
+    font-size: 16px;
+   }
+   .signup_section p{
+    font-size: 16px;
+   }
+   .search_section button{
+    font-size: 14px;
+   }
+   .search_section input {
+    font-size: 12px;
+    padding: 12px 12px;
+}
+}
+@media only screen and (max-width: 992px){
+    .search_section button {
+        font-size: 12px;
+    }
+}
+
+
+
+@media only screen and (max-width: 768px){
+    .hero_row{
+        padding:35px 20px;
+    }
+    .md_area_section{
+        order:2;
+    }
+    .md_img_sec{
+        text-align: center !important;
+    }
+    /* .search_section input ,.search_section button{
+        width: 100%;
+    } */
+   
+}
+@media only screen and (max-width: 570px){
+    .hero_detail h2 {
+        font-size: 26px;
+    }
+    .hero_detail p {
+        font-size: 14px;
+    }
+    .search_section button {
+        font-size: 12px;
+        margin-top: 10px;
+      width: 100%;
+    }
+ .hero_section_bg   input{
+        width: 100%;
+    }
+    .search_section{
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 400px){
+    .hero_detail h2 {
+        font-size: 22px;
+    }
+    .hero_detail p {
+        font-size: 12px;
+    }
+    .signup_section p {
+        font-size: 14px;
+    }
+}

@@ -1,13 +1,25 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: 'BarkeleyMono-Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: url("./assets/fonts/BerkeleyMono-Bold.woff") format('woff');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'BarkeleyMono-Bolditalic';
+  font-style: normal;
+  font-weight: 700;
+  src: url("./assets/fonts/BerkeleyMono-BoldItalic.woff") format('woff');
+}
+@font-face {
+  font-family: 'BarkeleyMono-italic';
+  font-style: normal;
+  font-weight: 500;
+  src: url("./assets/fonts/BerkeleyMono-Italic.woff") format('woff');
+}
+@font-face {
+  font-family: 'BarkeleyMono-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/BerkeleyMono-Regular.woff") format('woff');
 }

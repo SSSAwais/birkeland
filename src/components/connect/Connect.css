@@ -1,0 +1,57 @@
+.connect_{
+    background: #090616;
+    padding:80px 20px;
+    padding-bottom: 0px;
+}
+.connect_detail_section h2{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+    font-size: 49px;
+    color: #fff;
+    margin-bottom: 16px;
+}
+.connect_detail_section p{
+    font-family: 'BarkeleyMono-Regular';
+    font-size: 19px;
+    color: #9A8CE8;
+    margin-bottom: 12px;
+}
+
+
+@media only screen and (max-width: 1024px){
+    .connect_{
+        padding:50px 20px;
+        padding-bottom: 0px;
+    }
+    .connect_detail_section h2{
+        font-size: 36px;
+   }
+   .connect_detail_section p{
+    font-size: 16px;
+   }
+
+}
+@media only screen and (max-width: 992px){}
+
+@media only screen and (max-width: 768px){
+    .connect_{
+        padding:35px 20px;
+        padding-bottom:0px;
+    }
+}
+@media only screen and (max-width: 570px){
+    .connect_detail_section h2 {
+        font-size: 26px;
+    }
+    .connect_detail_section p {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .connect_detail_section h2 {
+        font-size: 22px;
+    }
+    .connect_detail_section p  {
+        font-size: 12px;
+    }
+}

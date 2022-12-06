@@ -1,0 +1,40 @@
+.operate_card_wrapper{
+    display: flex;
+    margin-top: 50px;
+}
+.operate_detail{
+    margin-left: 24px;
+}
+.operate_detail h2{
+    font-family: 'BarkeleyMono-Regular';
+    font-size: 19px;
+    line-height: 19px;
+    margin-bottom:8px;
+    color: #FFFFFF;
+
+}
+.operate_detail  p{
+    font-family: 'BarkeleyMono-Regular';
+    font-size: 14px;
+    color: #9A8CE8;
+    margin-bottom: 0px;
+    line-height: 24px;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 768px){
+    .operate_card_wrapper {
+        display: flex;
+        margin-top: 25px;
+    }
+    .operate_detail p{
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+}
+
+
+
+
+
