@@ -1,6 +1,7 @@
 .operating_node_bg{
     background: linear-gradient(270deg, #24243E 0%, #0F0C29 100%);
     padding:80px 20px;
+    padding-top: 0px !important;
 }
 
 

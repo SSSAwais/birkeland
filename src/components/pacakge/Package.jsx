@@ -20,7 +20,7 @@ const Pacakge = () => {
           <div className="row">
             <div className="col-lg-12">
               <ul
-                className="nav nav-pills mb-3 justify-content-center"
+                className="nav nav-pills tabsss justify-content-center"
                 id="pills-tab"
                 role="tablist"
               >
