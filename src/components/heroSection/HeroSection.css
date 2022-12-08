@@ -7,6 +7,9 @@
     font-size: 49px;
     color: #fff;
 }
+.hero_section_bg input:focus{
+    outline: none !important;
+}
 .hero_detail p{
     font-family: 'BarkeleyMono-Regular';
     font-size: 19px;
@@ -49,7 +52,7 @@
     margin-left:15px;
 }
 .hero_row{
-    padding:80px 20px;
+    padding:100px 20px;
 }
 .md_img_sec{
     text-align: end;

@@ -2,6 +2,9 @@ import React from 'react'
 import './HeroSection.css';
 import heroimage from '../../assets/images/herosection.png'
 const HeroSection = () => {
+    const _handleEmail=(e)=>{
+        e.preventDefault();
+    }
   return (
     <>
     <section className='hero_section_bg'>
@@ -18,7 +21,7 @@ const HeroSection = () => {
                         <div className='search_section'>
                             
                             <input className='' placeholder='Enter Your Email... '/>
-                            <button>Get Early Access <span>&#x279D;</span></button>
+                            <button onClick={_handleEmail}>Get Early Access <span>&#x279D;</span></button>
                         </div>
                     </div>
                     </form>

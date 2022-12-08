@@ -1,7 +1,7 @@
 .operating_node_bg{
     background: linear-gradient(270deg, #24243E 0%, #0F0C29 100%);
-    padding:80px 20px;
-    padding-top: 0px !important;
+    padding:100px 20px;
+    
 }
 
 
@@ -19,7 +19,11 @@
     width: 80%;
     margin:auto;
 }
-
+@media only screen and (max-width: 1400px){
+    .operate_heading_section h2{
+       font-size: 46px;
+     }
+}
 
 @media only screen and (max-width: 1024px){
     .operating_node_bg{

@@ -11,7 +11,7 @@ header{
     margin-bottom: 0px;
 }
 .head_row{
-    padding:22px 20px
+    padding:30px 20px
 }
 .early_access button{
     font-family: 'BarkeleyMono-Bold';
@@ -22,6 +22,11 @@ header{
     padding:6px 16px;
     border: 0px;
     
+}
+@media only screen and (max-width:768px){
+    .head_row{
+        padding:25px 16px
+    }
 }
 
 @media only screen and (max-width: 576px){
@@ -36,7 +41,7 @@ header{
        padding: 6px 12px;
     }
     .head_row{
-        padding:16px;
+        padding:20px 16px
     }
 }
 @media only screen and (max-width: 370px){

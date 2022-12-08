@@ -1,14 +1,13 @@
 .package_{
     background: #090616;
-    padding-bottom: 80px;
-    padding-left: 20px ;
-    padding-right: 20px;
+    padding: 100px 20px;
+ 
 }
 .pacakge_heading{
     text-align: center;
 }
 .tabsss{
-    margin-bottom: 40px !important;
+    margin-bottom: 50px !important;
 }
 .pacakge_heading h2{
     font-family: 'Roboto Slab', serif;
@@ -20,6 +19,7 @@
     font-family: 'BarkeleyMono-Regular';
     font-size: 19px;
     color: #9A8CE8;
+    margin-bottom: 50px;
 }
 button#pills-profile-tab ,button#pills-home-tab{
     font-family: 'BarkeleyMono-Bold';
@@ -42,7 +42,7 @@ button#pills-profile-tab ,button#pills-home-tab{
 
 @media only screen and (max-width: 1024px){
     .package_{
-        padding-bottom:50px;
+        padding:50px 20px;
     }
     .pacakge_heading h2{
         font-size: 36px;
@@ -56,7 +56,7 @@ button#pills-profile-tab ,button#pills-home-tab{
 
 @media only screen and (max-width: 768px){
     .package_{
-        padding-bottom:35px;
+        padding:35px 20px;
     }
 }
 

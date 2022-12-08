@@ -1,8 +1,6 @@
 .connect_{
     background: #090616;
-    padding:80px 20px;
-    padding-bottom: 0px !important;
-    padding-top: 0px !important;
+    padding:100px 20px;
 }
 .connect_detail_section h2{
     font-family: 'Roboto Slab', serif;

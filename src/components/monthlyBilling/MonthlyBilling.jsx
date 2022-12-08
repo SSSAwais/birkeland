@@ -28,7 +28,7 @@ const MonthlyBilling = () => {
                   lightning network. Perfect for experimentation and using small
                   amounts of Bitcoin.
                 </p>
-                <h6>$0/mo</h6>
+                <h6>$0<span>/mo</span> </h6>
                 <button>Select Package</button>
               </div>
               <div className="whats_included">
@@ -56,7 +56,7 @@ const MonthlyBilling = () => {
                   manually managing a node. Perfect for running self-sovereign
                   infrastructure.
                 </p>
-                <h6>$10/mo</h6>
+                <h6>$10<span>/mo</span> </h6>
                 <button>Select Package</button>
               </div>
               <div className="whats_included">
@@ -92,7 +92,7 @@ const MonthlyBilling = () => {
                   yield on your Bitcoin. Perfect for large Bitcoin holders
                   looking for yield.
                 </p>
-                <h6>$100/mo</h6>
+                <h6>$100<span>/mo</span> </h6>
                 <button>Select Package</button>
               </div>
               <div className="whats_included">

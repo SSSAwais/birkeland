@@ -5,13 +5,13 @@ const Footer = () => {
     <>
       <footer>
         <div className="container-xxl">
-          <div className="row align-items-center foot_row2 justify-content-between">
+          <div className="row align-items-center foot_row2 justify-content-start">
             <div className="col-lg-2">
               <div className="footer_logo">
                 <h4>Birkeland </h4>
               </div>
             </div>
-            <div className="col-lg-10">
+            <div className="col-lg-5">
               <div className="footer_ingo">
                 <p className="text-start m-0">
                   Your Keys, Your coins, Your Node Private, Automated, Optimised
